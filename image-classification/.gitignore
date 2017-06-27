@@ -1,0 +1,15 @@
+# Visual Studio Generated #
+###########################
+*.user
+*.suo
+*.nupkg
+*/bin
+*/obj
+/packages/*/
+*.gz
+*.p
+/cifar-10-batches-py/*
+/cifar-10-batches-py
+image_classification.data*
+image_classification.index
+image_classification.meta
