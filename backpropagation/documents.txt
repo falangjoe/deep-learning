@@ -19,3 +19,8 @@ http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf
 
 Deconvolution
 http://distill.pub/2016/deconv-checkerboard/
+
+LSTMs
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+https://r2rt.com/recurrent-neural-networks-in-tensorflow-i.html
+https://www.youtube.com/watch?v=iX5V1WpxxkY
