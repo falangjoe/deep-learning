@@ -24,3 +24,19 @@ LSTMs
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 https://r2rt.com/recurrent-neural-networks-in-tensorflow-i.html
 https://www.youtube.com/watch?v=iX5V1WpxxkY
+
+Hyper Parameters
+Practical recommendations for gradient-based training of deep architectures by Yoshua Bengio
+https://arxiv.org/abs/1206.5533
+Deep Learning book - chapter 11.4: Selecting Hyperparameters by Ian Goodfellow, Yoshua Bengio, Aaron Courville
+http://www.deeplearningbook.org/contents/guidelines.html
+Efficient BackProp (pdf) by Yann LeCun
+http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+More specialized sources:
+
+How to Generate a Good Word Embedding? by Siwei Lai, Kang Liu, Liheng Xu, Jun Zhao
+https://arxiv.org/abs/1507.05523
+Systematic evaluation of CNN advances on the ImageNet by Dmytro Mishkin, Nikolay Sergievskiy, Jiri Matas
+https://arxiv.org/abs/1606.02228
+Visualizing and Understanding Recurrent Networks by Andrej Karpathy, Justin Johnson, Li Fei-Fei
+https://arxiv.org/abs/1506.02078
