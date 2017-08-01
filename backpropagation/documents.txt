@@ -40,3 +40,13 @@ Systematic evaluation of CNN advances on the ImageNet by Dmytro Mishkin, Nikolay
 https://arxiv.org/abs/1606.02228
 Visualizing and Understanding Recurrent Networks by Andrej Karpathy, Justin Johnson, Li Fei-Fei
 https://arxiv.org/abs/1506.02078
+
+SeqToSeq
+https://github.com/ematvey/tensorflow-seq2seq-tutorials --Looks Good
+Movie Scripts Data
+https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html 
+Standford Tensor Flow Tutorial - Old?
+https://github.com/chiphuyen/tf-stanford-tutorials/tree/master/assignments/chatbot
+Google Talk with actual production example 
+https://www.youtube.com/watch?v=G5RY_SUJih4
+
