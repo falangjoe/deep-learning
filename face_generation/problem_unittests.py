@@ -17,10 +17,11 @@ def test_safe(func):
 
 
 def _assert_tensor_shape(tensor, shape, display_name):
-    assert tf.assert_rank(tensor, len(shape), message='{} has wrong rank'.format(display_name))
-
+    
+    tf.assert_rank(tensor, len(shape), message='{} has wrong rank'.format(display_name))
+    
     tensor_shape = tensor.get_shape().as_list() if len(shape) else []
-
+    
     wrong_dimension = [ten_dim for ten_dim, cor_dim in zip(tensor_shape, shape)
                        if cor_dim is not None and ten_dim != cor_dim]
     assert not wrong_dimension, \
@@ -31,8 +32,9 @@ def _check_input(tensor, shape, display_name, tf_name=None):
     assert tensor.op.type == 'Placeholder', \
         '{} is not a Placeholder.'.format(display_name)
 
-    _assert_tensor_shape(tensor, shape, 'Real Input')
-
+    #_assert_tensor_shape(tensor, shape, 'Real Input')
+    _assert_tensor_shape(tensor, shape, display_name)
+    
     if tf_name:
         assert tensor.name == tf_name, \
             '{} has bad name.  Found name {}'.format(display_name, tensor.name)
