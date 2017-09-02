@@ -5,6 +5,7 @@ embeddings/data/
 embeddings/text8.zip
 face_generation/data/
 semi-supervised/data/
+semi-supervised/images/
 
 .ipynb_checkpoints/
 
